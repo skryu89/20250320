@@ -99,7 +99,7 @@ hr {
 }
 
 input, select {
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 body {
@@ -110,3 +110,15 @@ body {
     font-family: inherit;
 }
 
+nav {
+    background: rgb(33,37,41);
+}
+
+nav ul li {
+    display: inline-block;   
+}
+
+.inner {
+    width: 1110px;
+    background: #ddd;
+}
