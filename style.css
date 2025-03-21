@@ -102,6 +102,9 @@ input, select {
     vertical-align: middle;
 }
 
+
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -121,4 +124,19 @@ nav ul li {
 .inner {
     width: 1110px;
     background: #ddd;
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 1110px;
+    background: #ddd;
+}   
+
+header ul {
+    list-style: none;
+}
+
+.ichigo {
+    height: 600px;
+    background-color: #ff9;
 }
