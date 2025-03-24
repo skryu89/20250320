@@ -104,7 +104,6 @@ input, select {
 
 
 
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -113,30 +112,118 @@ body {
     font-family: inherit;
 }
 
-nav {
-    background: rgb(33,37,41);
+
+
+.inner  {
+    display: flex;
+    align-self: center;
 }
 
-nav ul li {
-    display: inline-block;   
+
+.sakana {
+    padding-left: 130px;
 }
 
-.inner {
+
+.choco {
+    padding-left: 480px;
+    vertical-align: middle;
+    font-size: 32px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    color: #6C757D;
+}
+
+.budo {
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.nashi {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.ringo {
+    background: #60696F;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #cccccc;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.yasai {
+    text-align: center;
+}
+
+.niku {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    font-size: 16px;
+    background: #343A40; 
+    color: #cccccc;
+    height: 55px;
+    line-height: 55px;
     width: 1110px;
-    background: #ddd;
-    margin: 0 auto;
+    padding-left: 170px;
+    padding-right: 150px;
 }
 
-nav ul {
-    width: 1110px;
-    background: #ddd;
-}   
-
-header ul {
-    list-style: none;
+a {
+    display: grid;
+    color: inherit;
+    text-decoration: none;
 }
 
 .ichigo {
     height: 600px;
-    background-color: #ff9;
+    background-image: url("../image/top-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1430px;
+    text-align: right;
+}   
+
+.mikan {
+    display: inline-block;
+    width: 560px;
+    height: 300px;
+    padding: 30px 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    background: #fff;
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+.mikan h2 {
+    margin-bottom: 15px;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+.kagi {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.saifu {
+    font-size: 13px;
+    text-align: left;
 }
